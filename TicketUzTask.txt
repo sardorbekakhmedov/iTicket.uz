@@ -1,0 +1,34 @@
+iTicket.uz'ning oddiyroq backend
+
+1. Tadbir bo'ladigan joylarni ro'yhatga kirgizish va ularni ko'rsatish imkoni bo'lishi kerak.
+
+name - joyning nomi;
+address - manzil;
+capacity - odam sig'imi
+rows - qatorlar soni
+seatsInRow - qatordagi o'rindiqlar soni
+
+2. Tadbirlarni ro'yhatga kirgizish va ularni ko'rsatish imkoni bo'lishi kerak.
+Yangi tadbir kiritguncha boshqa tadbirlar bilan vaqtlari konfliktga uchramasligi kerak (tadbir boshlanishi va tugashidan 1 soat interval bo'lishi kerak)
+
+name - tadbir nomi;
+start - boshlanish vaqti
+end - tugash vaqti
+price - bitta o'rindiq uchun bilet narhi
+
+3. Tadbirdagi bo'sh o'rindiqlarni ko'rsatishi kerak.
+
+- tadbir haqidagi ma'lumotlarga qo'shimcha ravishda qatorlardagi bo'sh o'rindiqlar listi.
+
+4. Bo'sh o'rindiqlarga bilet sotib olish imkoni. Foydalanuvchi haqida ma'lumotlarini ham olishi kerak.
+
+- fullname - FIO
+- venueId - Tadbirning id'si (Tadbir joyi)
+- row - qator
+- seat - o'rindiq raqami
+- secret - mahfiy so'z
+
+5. Tadbir boshlanishiga bir kun qolguncha biletni qaytarish imkoni bo'lishi kerak.
+
+- ticketId - biletning id'si
+- secret - bilet sotib olinganda taqdim etiladigan mahfiy so'z
